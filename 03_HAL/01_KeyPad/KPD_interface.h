@@ -1,6 +1,6 @@
 /*******************************************************************/
 /*******************************************************************/
-/***************************     Author:Adel Magdy     *************/
+/***************************     Author:Magdy    *************/
 /***************************     Layer:HALL            *************/
 /***************************     SWC:KPD               *************/
 /***************************     Version:1.00          *************/
@@ -10,10 +10,11 @@
 
 #ifndef KPD_INTERFACE_H_
 #define KPD_INTERFACE_H_
-/*initialize rows to input high and colum to output high   */
-u8 KPD_U8GetPressedKey(void);
 
+/*initialize rows to input high and column to output high   */
+u8 KPD_U8GetPressedKey(void);
+/*
 void Keypad_voidComplateCalculator(void);
 void Keypad_voidTimer();
-
+*/
 #endif
